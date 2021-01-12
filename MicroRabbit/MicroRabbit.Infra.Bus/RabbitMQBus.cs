@@ -45,6 +45,7 @@ namespace MicroRabbit.Infra.Bus
             return _mediator.Send(command);
         }
 
+
         public void Subscribe<T, TH>()
             where T : Event
             where TH : IEventHandler<T>
@@ -87,6 +88,7 @@ namespace MicroRabbit.Infra.Bus
 
             var consumer = new AsyncEventingBasicConsumer(channel);
             consumer.Received += Consumer_Received;
+            channel.BasicConsume(eventName, true, consumer);
         }
 
         private async Task Consumer_Received(object sender, BasicDeliverEventArgs e)
