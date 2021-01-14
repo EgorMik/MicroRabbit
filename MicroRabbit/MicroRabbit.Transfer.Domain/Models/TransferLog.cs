@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MicroRabbit.Banking.Application.Models
+namespace MicroRabbit.Transfer.Domain.Models
 {
-    public class AccountTransfer
+   public class TransferLog
     {
-        public int ToAccount { get; set; }
+        public int Id { get; set; }
         public int FromAccount { get; set; }
+        public int ToAccount { get; set; }
         public int TransferAmount { get; set; }
     }
 }
+

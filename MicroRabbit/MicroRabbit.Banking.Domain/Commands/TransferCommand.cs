@@ -9,6 +9,6 @@ namespace MicroRabbit.Banking.Domain.Commands
     {
         public int From { get; protected set; }
         public int To { get; protected set; }
-        public decimal Amount { get; protected set; }
+        public int Amount { get; protected set; }
     }
 }
