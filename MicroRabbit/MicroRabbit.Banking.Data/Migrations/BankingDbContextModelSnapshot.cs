@@ -16,7 +16,7 @@ namespace MicroRabbit.Banking.Data.Migrations
             modelBuilder
                 .UseIdentityColumns()
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("ProductVersion", "5.0.1");
+                .HasAnnotation("ProductVersion", "5.0.2");
 
             modelBuilder.Entity("MicroRabbit.Banking.Domain.Models.Account", b =>
                 {
@@ -25,8 +25,8 @@ namespace MicroRabbit.Banking.Data.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<decimal>("AccountBalance")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<int>("AccountBalance")
+                        .HasColumnType("int");
 
                     b.Property<string>("AccountType")
                         .HasColumnType("nvarchar(max)");

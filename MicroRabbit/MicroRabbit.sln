@@ -47,13 +47,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{7D2516B2-3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{68C74BB3-7427-4D7B-9AB4-4252E2EB0B9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Transfer.Api", "MicroRabbit.Transfer.Api\MicroRabbit.Transfer.Api.csproj", "{70B4BCB0-E148-4C0E-9C44-0DB1703704AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Transfer.Api", "MicroRabbit.Transfer.Api\MicroRabbit.Transfer.Api.csproj", "{70B4BCB0-E148-4C0E-9C44-0DB1703704AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Transfer.Application", "MicroRabbit.Transfer.Application\MicroRabbit.Transfer.Application.csproj", "{DDDD5D0D-6238-4DB8-815D-B288B9454387}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Transfer.Application", "MicroRabbit.Transfer.Application\MicroRabbit.Transfer.Application.csproj", "{DDDD5D0D-6238-4DB8-815D-B288B9454387}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Transfer.Domain", "MicroRabbit.Transfer.Domain\MicroRabbit.Transfer.Domain.csproj", "{4FA2DEF2-F51F-422C-94C4-095129BDEA58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Transfer.Domain", "MicroRabbit.Transfer.Domain\MicroRabbit.Transfer.Domain.csproj", "{4FA2DEF2-F51F-422C-94C4-095129BDEA58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Transfer.Data", "MicroRabbit.Transfer.Data\MicroRabbit.Transfer.Data.csproj", "{CA24F7A3-5E6A-4BCF-8055-03CE0D686055}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Transfer.Data", "MicroRabbit.Transfer.Data\MicroRabbit.Transfer.Data.csproj", "{CA24F7A3-5E6A-4BCF-8055-03CE0D686055}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Presentation", "MicroRabbit.Presentation\MicroRabbit.Presentation.csproj", "{C7589CF7-1488-4485-8B50-FAE078F1F4E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{CA24F7A3-5E6A-4BCF-8055-03CE0D686055}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA24F7A3-5E6A-4BCF-8055-03CE0D686055}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA24F7A3-5E6A-4BCF-8055-03CE0D686055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7589CF7-1488-4485-8B50-FAE078F1F4E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7589CF7-1488-4485-8B50-FAE078F1F4E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7589CF7-1488-4485-8B50-FAE078F1F4E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7589CF7-1488-4485-8B50-FAE078F1F4E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -131,6 +137,7 @@ Global
 		{DDDD5D0D-6238-4DB8-815D-B288B9454387} = {83457E72-B21D-4E0F-99B0-CF4D435DC208}
 		{4FA2DEF2-F51F-422C-94C4-095129BDEA58} = {68C74BB3-7427-4D7B-9AB4-4252E2EB0B9D}
 		{CA24F7A3-5E6A-4BCF-8055-03CE0D686055} = {7D2516B2-3647-4965-BD22-AC8A784E11DD}
+		{C7589CF7-1488-4485-8B50-FAE078F1F4E7} = {051A7573-9832-4088-80F2-52215A8A974A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66AC9E25-D304-4B2E-864C-DDB6D8A1F233}
